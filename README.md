@@ -26,3 +26,8 @@ g++ -std=c++20 Engine.cpp ...
 - Quiescence search
 - Transposition tables
 - Iterative deepening
+
+Quando modifichi il codice:
+git add .
+git commit -m "added quiescence search"
+git push
