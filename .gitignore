@@ -1,0 +1,14 @@
+# executables
+*.exe
+*.out
+*.o
+*.obj
+
+# build
+build/
+
+# vscode temp
+.vscode/*.log
+
+# system
+.DS_Store

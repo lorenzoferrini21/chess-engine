@@ -1,0 +1,51 @@
+{
+ "version": "2.0.0",
+ "tasks": [
+  {
+   "label": "Build Engine",
+   "type": "shell",
+   "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+   "args": [
+    "-std=c++20",
+    "-g",
+
+    "-I.",
+    "-Icore",
+    "-Iboard",
+    "-Imove",
+    "-Imovegen",
+    "-IPERFT",
+    "-Isearch",
+    "-Ieval",
+
+    "Engine.cpp",
+    "board/board.cpp",
+    "movegen/attacks.cpp",
+    "movegen/movegen.cpp",
+    "move/makemove.cpp",
+    "PERFT/perft.cpp",
+    "search/search.cpp",
+    "eval/evaluate.cpp",
+    "uci/uci.cpp",
+
+    "-o",
+    "engine.exe"
+   ],
+   "options": {
+    "cwd": "${workspaceFolder}"
+   },
+   "group": {
+    "kind": "build",
+    "isDefault": true
+   },
+   "problemMatcher": ["$gcc"]
+  },
+
+  {
+   "label": "Run Engine",
+   "type": "shell",
+   "command": "${workspaceFolder}\\engine.exe",
+   "dependsOn": "Build Engine"
+  }
+ ]
+}

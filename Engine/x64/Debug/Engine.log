@@ -1,0 +1,29 @@
+﻿  Engine.cpp
+  perft.cpp
+  makemove.cpp
+  movegen.cpp
+C:\Users\User\Desktop\Scacchi\Engine\move\makemove.cpp(146,12): error C2374: 'from': ridefinizione. Inizializzazione multipla.
+      C:\Users\User\Desktop\Scacchi\Engine\move\makemove.cpp(8,12):
+      vedere la dichiarazione di 'from'
+  
+C:\Users\User\Desktop\Scacchi\Engine\move\makemove.cpp(146,12): error C2086: 'Square from': ridefinizione
+      C:\Users\User\Desktop\Scacchi\Engine\move\makemove.cpp(8,12):
+      vedere la dichiarazione di 'from'
+  
+C:\Users\User\Desktop\Scacchi\Engine\move\makemove.cpp(147,12): error C2374: 'to': ridefinizione. Inizializzazione multipla.
+      C:\Users\User\Desktop\Scacchi\Engine\move\makemove.cpp(9,12):
+      vedere la dichiarazione di 'to'
+  
+C:\Users\User\Desktop\Scacchi\Engine\move\makemove.cpp(147,12): error C2086: 'Square to': ridefinizione
+      C:\Users\User\Desktop\Scacchi\Engine\move\makemove.cpp(9,12):
+      vedere la dichiarazione di 'to'
+  
+C:\Users\User\Desktop\Scacchi\Engine\movegen\movegen.cpp(231,18): error C2374: 'temp': ridefinizione. Inizializzazione multipla.
+      C:\Users\User\Desktop\Scacchi\Engine\movegen\movegen.cpp(182,18):
+      vedere la dichiarazione di 'temp'
+  
+C:\Users\User\Desktop\Scacchi\Engine\movegen\movegen.cpp(231,18): error C2086: 'Bitboard temp': ridefinizione
+      C:\Users\User\Desktop\Scacchi\Engine\movegen\movegen.cpp(182,18):
+      vedere la dichiarazione di 'temp'
+  
+  Generazione del codice in corso...

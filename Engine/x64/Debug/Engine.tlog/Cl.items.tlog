@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\Scacchi\Engine\board\board.cpp;C:\Users\User\Desktop\Scacchi\Engine\Engine\x64\Debug\board.obj
+C:\Users\User\Desktop\Scacchi\Engine\Engine.cpp;C:\Users\User\Desktop\Scacchi\Engine\Engine\x64\Debug\Engine.obj
+C:\Users\User\Desktop\Scacchi\Engine\movegen\attacks.cpp;C:\Users\User\Desktop\Scacchi\Engine\Engine\x64\Debug\attacks.obj
+C:\Users\User\Desktop\Scacchi\Engine\movegen\movegen.cpp;C:\Users\User\Desktop\Scacchi\Engine\Engine\x64\Debug\movegen.obj
+C:\Users\User\Desktop\Scacchi\Engine\move\makemove.cpp;C:\Users\User\Desktop\Scacchi\Engine\Engine\x64\Debug\makemove.obj
+C:\Users\User\Desktop\Scacchi\Engine\PERFT\perft.cpp;C:\Users\User\Desktop\Scacchi\Engine\Engine\x64\Debug\perft.obj

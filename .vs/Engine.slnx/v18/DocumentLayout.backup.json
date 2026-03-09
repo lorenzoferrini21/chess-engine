@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Scacchi\\Engine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B897D1-B193-4A2A-95CC-82C370C6A0A8}|Engine.vcxproj|C:\\Users\\User\\Desktop\\Scacchi\\Engine\\move\\makemove.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B9B897D1-B193-4A2A-95CC-82C370C6A0A8}|Engine.vcxproj|solutionrelative:move\\makemove.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B897D1-B193-4A2A-95CC-82C370C6A0A8}|Engine.vcxproj|C:\\Users\\User\\Desktop\\Scacchi\\Engine\\movegen\\movegen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B9B897D1-B193-4A2A-95CC-82C370C6A0A8}|Engine.vcxproj|solutionrelative:movegen\\movegen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B897D1-B193-4A2A-95CC-82C370C6A0A8}|Engine.vcxproj|C:\\Users\\User\\Desktop\\Scacchi\\Engine\\movegen\\movegen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B9B897D1-B193-4A2A-95CC-82C370C6A0A8}|Engine.vcxproj|solutionrelative:movegen\\movegen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B897D1-B193-4A2A-95CC-82C370C6A0A8}|Engine.vcxproj|C:\\Users\\User\\Desktop\\Scacchi\\Engine\\movegen\\attacks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B9B897D1-B193-4A2A-95CC-82C370C6A0A8}|Engine.vcxproj|solutionrelative:movegen\\attacks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B897D1-B193-4A2A-95CC-82C370C6A0A8}|Engine.vcxproj|C:\\Users\\User\\Desktop\\Scacchi\\Engine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B9B897D1-B193-4A2A-95CC-82C370C6A0A8}|Engine.vcxproj|solutionrelative:Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B897D1-B193-4A2A-95CC-82C370C6A0A8}|Engine.vcxproj|C:\\Users\\User\\Desktop\\Scacchi\\Engine\\movegen\\attacks.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B9B897D1-B193-4A2A-95CC-82C370C6A0A8}|Engine.vcxproj|solutionrelative:movegen\\attacks.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B897D1-B193-4A2A-95CC-82C370C6A0A8}|Engine.vcxproj|C:\\Users\\User\\Desktop\\Scacchi\\Engine\\move\\makemove.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B9B897D1-B193-4A2A-95CC-82C370C6A0A8}|Engine.vcxproj|solutionrelative:move\\makemove.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 378,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "makemove.h",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Scacchi\\Engine\\move\\makemove.h",
+              "RelativeDocumentMoniker": "move\\makemove.h",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Scacchi\\Engine\\move\\makemove.h",
+              "RelativeToolTip": "move\\makemove.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T10:01:59.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "makemove.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Scacchi\\Engine\\move\\makemove.cpp",
+              "RelativeDocumentMoniker": "move\\makemove.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Scacchi\\Engine\\move\\makemove.cpp",
+              "RelativeToolTip": "move\\makemove.cpp",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAJcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-01T10:01:47.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Engine.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Scacchi\\Engine\\Engine.cpp",
+              "RelativeDocumentMoniker": "Engine.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Scacchi\\Engine\\Engine.cpp",
+              "RelativeToolTip": "Engine.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-27T09:44:33.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "attacks.h",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Scacchi\\Engine\\movegen\\attacks.h",
+              "RelativeDocumentMoniker": "movegen\\attacks.h",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Scacchi\\Engine\\movegen\\attacks.h",
+              "RelativeToolTip": "movegen\\attacks.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-27T09:06:26.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "attacks.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Scacchi\\Engine\\movegen\\attacks.cpp",
+              "RelativeDocumentMoniker": "movegen\\attacks.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Scacchi\\Engine\\movegen\\attacks.cpp",
+              "RelativeToolTip": "movegen\\attacks.cpp",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAAAIcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-27T09:06:12.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "movegen.h",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Scacchi\\Engine\\movegen\\movegen.h",
+              "RelativeDocumentMoniker": "movegen\\movegen.h",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Scacchi\\Engine\\movegen\\movegen.h",
+              "RelativeToolTip": "movegen\\movegen.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-26T19:46:59.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "movegen.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Scacchi\\Engine\\movegen\\movegen.cpp",
+              "RelativeDocumentMoniker": "movegen\\movegen.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Scacchi\\Engine\\movegen\\movegen.cpp",
+              "RelativeToolTip": "movegen\\movegen.cpp",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAowA4BAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-26T19:46:48.576Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
