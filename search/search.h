@@ -9,8 +9,14 @@ public:
     static Move findBestMove(Board& board, int depth);
     static void initMVVLVA();
 
+
 private:
 
-    static int alphaBeta(Board& board, int depth, int alpha, int beta);
+    static int alphaBeta(Board& board, int depth, int alpha, int beta, bool root);
+          
+    static int quiescence(Board& board, int alpha, int beta);
+
+    
+      static Move bestMove;
 
 };

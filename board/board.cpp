@@ -138,3 +138,9 @@ bool Board::pieceOn(Square sq, Color& color, PieceType& pt) const
 
     return false;
 }
+
+bool Board::isCapture(Move move) const
+{
+    Square to = (move >> 6) & 0x3F;
+    return occupancy[!sideToMove] & (1ULL << to);
+}

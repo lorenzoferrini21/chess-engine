@@ -11,6 +11,8 @@ static const int INF = 100000;
 
 static int mvvLva[PIECE_TYPE_NB][PIECE_TYPE_NB];
 
+Move Search::bestMove = 0;
+
 void Search::initMVVLVA()
 {
     for (int attacker = PAWN; attacker <= KING; attacker++)
@@ -40,39 +42,34 @@ int scoreMove(Board& board, Move move)
     return 0;
 }
 
-Move Search::findBestMove(Board& board, int depth)
+Move Search::findBestMove(Board& board, int maxDepth)
 {
-    std::vector<Move> moves;
-    MoveGen::generateLegalMoves(board, moves);
+    Move best = 0;
 
-    Move bestMove = 0;
-    int bestScore = -INF;
-
-    for (Move m : moves)
+    for (int depth = 1; depth <= maxDepth; depth++)
     {
-        MakeMove::makeMove(board, m);
+        int score = alphaBeta(board, depth, -INF, INF, true);
 
-        int score = -alphaBeta(board, depth - 1, -INF, INF);
+        best = bestMove;
 
-        MakeMove::undoMove(board);
-
-        if (score > bestScore)
-        {
-            bestScore = score;
-            bestMove = m;
-        }
+        std::cout << "info depth "
+                  << depth
+                  << " score "
+                  << score
+                  << std::endl;
     }
 
-    return bestMove;
+    return best;
 }
 
-int Search::alphaBeta(Board& board, int depth, int alpha, int beta)
+int Search::alphaBeta(Board& board, int depth, int alpha, int beta, bool root)
 {
     if (depth == 0)
-        return Evaluate::evaluate(board);
+        return quiescence(board, alpha, beta);
 
     std::vector<Move> moves;
     MoveGen::generateLegalMoves(board, moves);
+
     std::sort(moves.begin(), moves.end(),
     [&](Move a, Move b)
     {
@@ -82,29 +79,65 @@ int Search::alphaBeta(Board& board, int depth, int alpha, int beta)
     if (moves.empty())
     {
         if (MoveGen::isInCheck(board, board.sideToMove))
-            return -INF + 1; // checkmate
+            return -INF + depth; // checkmate (depth bonus)
         else
-            return 0; // stalemate
+            return 0;
     }
-
-    int bestScore = -INF;
 
     for (Move move : moves)
     {
         MakeMove::makeMove(board, move);
 
-        int score = -alphaBeta(board, depth - 1, -beta, -alpha);
+        int score = -alphaBeta(board, depth - 1, -beta, -alpha, false);
 
         MakeMove::undoMove(board);
 
         if (score >= beta)
-            return beta;   // beta cutoff
+            return beta;
 
         if (score > alpha)
-            alpha = score; 
+        {
+            alpha = score;
+
+            if (root)
+                bestMove = move;
+        }
     }
 
     return alpha;
+}
 
+int Search::quiescence(Board& board, int alpha, int beta)
+{
+    int stand_pat = Evaluate::evaluate(board);
+
+    if (stand_pat >= beta)
+        return beta;
+
+    if (alpha < stand_pat)
+        alpha = stand_pat;
+
+    std::vector<Move> moves;
+    MoveGen::generateAllMoves(board, moves);
+
+    for (Move move : moves)
+    {
+        if (!board.isCapture(move))
+            continue;
+
+        MakeMove::makeMove(board, move);
+
+        int score = -quiescence(board, -beta, -alpha);
+
+        MakeMove::undoMove(board);
+
+        if (score >= beta)
+            return beta;
+
+        if (score > alpha)
+            alpha = score;
+    }
+
+    return alpha;
 }
 

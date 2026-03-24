@@ -59,5 +59,7 @@ public:
 
     //se voglio anche il colore del pezzo che è su quella casa
     bool pieceOn(Square sq, Color& color, PieceType& pt) const;
+
+    bool isCapture(Move move) const;
 };
 
